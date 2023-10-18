@@ -2,7 +2,7 @@
     
     <div class="big-card__photo">        
         <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqFTnUZhP5BoG2JeY2fYo2ypFduthqT_VQNQ&usqp=CAU"
+        src="{{ photoCover }}"
         alt="" 
         height="200px"
         srcset=""
@@ -10,20 +10,14 @@
     </div>
 
     <div class="big-card__title">
-        <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+        <h1><a href="#">{{ cardTitle }}</a></h1>
 
     </div>
-    <div class="big-card__discription">
+    <div class="big-card__description">
         <p>
             <a href="#">
-            O trecho padrão original de Lorem Ipsum, 
-            usado desde o século XVI, está reproduzido abaixo para 
-            os interessados. Seções 1.10.32 e 1.10.33 de "de Finibus
-            Bonorum et Malorum" de Cicero 
-            também foram reproduzidas abaixo em sua forma 
-            original, acompanhada das versões para o inglês da 
-            tradução feita por H. Rackham em 1914.
-        </a>
+                {{ cardDescription }}
+            </a>
         </p>
     </div>
 </div>    

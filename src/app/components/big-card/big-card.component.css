@@ -17,11 +17,11 @@
     font-size: 20px;
 }
 
-.big-card__discription {
+.big-card__description {
     margin-top: 20px;
 }
 
-.big-card__discription > p > a {
+.big-card__description > p > a {
     color: grey;
 }
 
