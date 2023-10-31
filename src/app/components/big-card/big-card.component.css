@@ -22,10 +22,11 @@
 }
 
 .big-card__description > p > a {
-    color: grey;
+    color: rgb(57, 50, 50);
 }
 
 .big-card__photo > img{
     width: 100%;
     min-width: 400px;
+    height: 500px;
 }

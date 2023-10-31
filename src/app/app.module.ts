@@ -18,7 +18,7 @@ import { AppRoutingModule } from './app-routing.module.ts.module';
     BigCardComponent,
     SmallCardComponent,
     HomeComponent,
-    ContentComponent
+    ContentComponent, 
   ],
   imports: [
     BrowserModule,
